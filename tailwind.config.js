@@ -17,5 +17,6 @@ module.exports = {
     require("preline/plugin"),
     require("@headlessui/tailwindcss"),
     require("flowbite/plugin"),
+    require("@tailwindcss/typography"),
   ],
 };
