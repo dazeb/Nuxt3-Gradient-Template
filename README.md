@@ -1,17 +1,41 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Gradient Template
+
+## UNDER ACTIVE DEVELOPMENT ⚠️
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-Make sure to install the dependencies:
+The project is built with [pnpm](https://pnpm.io/).
+
+This template is a full Nuxt 3 setup.
+
+Make sure to install the dependencies after cloning the template/github repo:
+
+```bash
+git clone https://github.com/dazeb/Nuxt3-Gradient-Template.git
+```
+
+```bash
+cd Nuxt3-Gradient-Template
+```
+
+### Enable Corepack
+
+This enables Yarn, NPM and PNPM to use the same dependencies.
+
+```bash
+corepack enable
+```
+
+### Install dependencies (pnpm preferred)
 
 ```bash
 # npm
 npm install
 
 # pnpm
-pnpm install
+pnpm i
 
 # yarn
 yarn install
@@ -26,7 +50,7 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 
 # pnpm
-pnpm run dev
+pnpm dev
 
 # yarn
 yarn dev
@@ -41,23 +65,16 @@ Build the application for production:
 npm run build
 
 # pnpm
-pnpm run build
+pnpm build
 
 # yarn
 yarn build
 ```
 
-Locally preview production build:
+### Screenshots
 
-```bash
-# npm
-npm run preview
+Dark and light theme
 
-# pnpm
-pnpm run preview
+![Dark](gradient-theme-dark.png)
 
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![Light](gradient-theme.png)
