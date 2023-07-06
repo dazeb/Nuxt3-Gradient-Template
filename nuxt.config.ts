@@ -15,12 +15,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "nuxt-icon",
-    "nuxt-headlessui",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["nuxt-icon", "nuxt-headlessui", "@nuxthq/ui"],
 
   colorMode: {
     classSuffix: "",

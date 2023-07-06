@@ -12,6 +12,7 @@ https://assets6.lottiefiles.com/packages/lf20_gf9LkmQYQK.json -->
     <section class="flex items-center flex-1 py-16">
         <div class="flex flex-col w-full">
             <h1 class="text-5xl font-extrabold text-center lg:text-7xl 2xl:text-8xl">
+                <UButton>Button</UButton>
                 <client-only>
                     <Vue3Lottie animationLink="https://assets6.lottiefiles.com/packages/lf20_gf9LkmQYQK.json" :height="300"
                         :width="300" :pause-on-hover="true" />
