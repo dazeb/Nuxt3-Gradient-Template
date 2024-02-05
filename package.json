@@ -9,14 +9,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.7.0",
+    "@nuxt/content": "^2.9.0",
     "@nuxt/devtools": "latest",
-    "@nuxthq/studio": "^0.13.4",
+    "@nuxthq/studio": "^0.14.1",
     "@nuxthq/ui": "^2.5.0",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^20.3.3",
     "autoprefixer": "^10.4.14",
-    "nuxt": "^3.6.1",
+    "nuxt": "^3.8.1",
     "nuxt-headlessui": "^1.1.4",
     "postcss": "^8.4.24",
     "prettier": "2.8.8",
